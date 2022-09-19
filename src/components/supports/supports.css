@@ -1,0 +1,31 @@
+#supports{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background: rgb(194,239,228);
+    background: linear-gradient(0deg, rgba(194,239,228,1) 0%, rgb(152 186 218) 100%);
+}
+.support-text h2{
+    font-size: 45px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    font-family: 'Roboto Mono', monospace;
+}
+.support-text p{
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+}
+.support-img img{
+    width: 100%;
+    height: 420px;
+}
+.location p{
+    padding-top: 45px;
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+}
+@media(max-width:767px) {
+    .sm-padding{
+        padding-bottom: 13px;
+    }
+    
+}

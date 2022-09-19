@@ -1,0 +1,35 @@
+#contact{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background: rgb(194,239,228);
+    background: linear-gradient(0deg, rgba(194,239,228,1) 0%, rgb(152 186 218) 100%);
+}
+ul>li{
+    list-style-type: none;
+    cursor: pointer;
+}
+ol, ul {
+    padding-left: 0rem;
+    padding-top: 10px;
+}
+.list-item{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto Mono', monospace;
+
+}
+.list-item ul li{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto Mono', monospace;
+}
+ul>li:last-child{
+    cursor: pointer;
+}
+@media(max-width:767px) {
+    .support-text h2 {
+        font-size: 35px;
+        
+    }
+    
+}
